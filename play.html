@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's Help Marina - Marina And The Lost Stuff</title>
+	   <link rel="stylesheet" type="text/css" href="css/styles.css">
+     <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Marina and The Lost Stuff</a></h1>
+        <p>Click on Marina's stuff to get them back. But remember, click only on Marina's things (the MACACO ones)!</p>
+    </header>
+    <div class="macaco">
+      <img src="images/yeah.png" src="marina saying macaco"/>
+    </div>
+    <div class="oh-no">
+      <img id="nop" src="images/yeah.png" src="that's not marina's"/>
+    </div>
+    <main> 
+        <div class="game">
+            <div onclick="MarinaStuff(0)" class="img-wrapper"><img class="yeah" src="images/macbook.png" alt="macbook"/></div>
+            <div onclick="NotMarinaStuff('bruno')" class="img-wrapper"><img class="bruno" src="images/bruno.png" alt="bruno's hoodie"/></div>
+            <div onclick="NotMarinaStuff('eduardo')" class="img-wrapper"><img class="eduardo" src="images/eduardo.png" alt="eduardo's skate"/></div>
+            <div onclick="NotMarinaStuff('mic')" class="img-wrapper"><img class="mic" src="images/mic.png" alt="mic's doritos"/></div>
+            <div onclick="NotMarinaStuff('caio')" class="img-wrapper"><img class="caio" src="images/caio.png" alt="caio's pants"/></div>
+            <div onclick="NotMarinaStuff('guilherme')" class="img-wrapper"><img class="guilherme" src="images/guilherme.png" alt="guilherme's pebble"/></div>
+            <div onclick="NotMarinaStuff('raquel')" class="img-wrapper"><img class="raquel" src="images/raquel.png" alt="raquel's pupet"/></div>
+            <div onclick="MarinaStuff(1)" class="img-wrapper"><img class="yeah"  src="images/shorts.png" alt="shorts"/></div>
+            <div onclick="MarinaStuff(2)" class="img-wrapper"><img class="yeah" src="images/celulas.png" alt="celulas"/></div>
+            <div onclick="NotMarinaStuff('felipe')" class="img-wrapper"><img class="felipe" src="images/felipe.png" alt="felipe's soda"/></div>
+            <div onclick="NotMarinaStuff('raianne')" class="img-wrapper"> <img class="raianne" src="images/raianne.png" alt="raianne's cd"/></div>
+            <div onclick="MarinaStuff(3)" class="img-wrapper"><img class="yeah"  src="images/salada.png" alt="salada"/></div>
+            <div onclick="MarinaStuff(4)" class="img-wrapper"><img class="yeah" src="images/chocolate.png" alt="chocolate"/></div>
+            <div onclick="NotMarinaStuff('matheus')" class="img-wrapper"><img class="matheus" src="images/matheus.png" alt="matheus's pebble"/></div>
+            <div onclick="NotMarinaStuff('nicole')" class="img-wrapper"><img class="nicole" src="images/nicole.png" alt="nicole's froot loops"/></div>
+            <div onclick="MarinaStuff(5)" class="img-wrapper"><img class="yeah" src="images/iphone.png" alt="marina's iphone"/></div>
+            <div onclick="NotMarinaStuff('giulia')" class="img-wrapper"><img class="giulia" src="images/giulia.png" alt="giulia's raionne star safe"/></div>
+            <div onclick="NotMarinaStuff('duda')" class="img-wrapper"><img class="duda" src="images/duda.png" alt="duda's scarf"/></div>
+        </div>
+    </main>
+    
+    <footer>
+        <button onclick="location.href='index.html'">< Back</button>
+    </footer>
+
+
+</body>
+</html>

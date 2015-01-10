@@ -1,0 +1,151 @@
+@font-face{
+    font-family: dumb;
+    src: url(../fonts/3Dumb.ttf);
+}
+
+@font-face{
+    font-family: dumb2;
+    src: url(../fonts/2Dumb.ttf);
+}
+
+body {
+    background-color: #852A4A;
+    color: #FFFDF2;
+    font-family: dumb2;
+    margin: 0;
+}
+
+header{
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 10;
+}
+
+h1 a{
+    color: #FFFDF2;
+    font-family: dumb;
+    font-size: 38pt;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid #FFFDF2;
+    border-radius: 10px;
+    color: #FFFDF2;
+    font-family: dumb2;
+    font-size: 10pt;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+button:hover{
+    background-color: #FFFDF2;
+    color: #852A4A;
+    opacity: 0.5;
+}
+
+footer{
+    margin: auto;
+    padding: 15px 0 55px 0;
+    width: 80%;
+}
+
+footer button {
+    font-size: 12pt;
+    margin-left: 20px;
+}
+/* index */
+.about{
+    display: table-cell;
+    font-size: 15pt;
+    vertical-align: middle;
+}
+
+.bg{
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.bg-img{
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bg-img{
+    opacity: 0.25;
+    z-index: -1;
+}
+
+main{
+    display: table;
+}
+
+/* play */
+main .game{
+    display: block;
+    margin: 0 auto;
+    margin-top: 138px;
+    text-align: center;
+    width: 90%;
+}
+
+.macaco, .oh-no{
+    bottom: 0;
+    display: none;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+}
+
+.macaco img, .oh-no img{
+    border-radius: 500px;
+}
+
+.img-wrapper{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 175px;
+}
+
+.img-wrapper:hover{
+    opacity: 0.5;
+}
+
+/* win */
+aside, figure {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside .img-wrapper {
+    display: block;
+}
+
+.wrapper{
+    margin-top: 119px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
